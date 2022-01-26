@@ -7,4 +7,9 @@
 
     });
 
+    it('should return 1 if the input is positive',() => { //It explains that the returned value should be 2
+        const result = compute(1); //Compute function is called and passed 1
+        expect(result).toBe(2); //Expect checks if 2 was returned
+
     });
+});
